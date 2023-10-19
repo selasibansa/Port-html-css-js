@@ -132,6 +132,9 @@ section{
     gap: 5rem;
     height: 80vh;
 }
+.img_container img{
+    border-radius: 50%;
+}
 .img_container{
     display: flex;
     height: 400px;
