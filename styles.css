@@ -170,3 +170,82 @@ section{
     cursor: pointer;
     height: 2rem;
 }
+/* BUTTONS */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn_color_1, .btn_color_2{
+    border:solid rgb(53, 53, 53) 0.1rem solid;
+}
+.btn_color_1:hover, .btn_color_2:hover{
+    cursor: pointer;
+    
+}
+.btn_color_1, .btn_color_2:hover{
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+}
+.btn_color_1:hover{
+    background: rgb(0, 0, 0);
+}
+.btn_color_2{
+    background: none;
+}
+.btn_color_2:hover{
+    border: rgb(255, 255, 255) 0.5rem solid;
+}
+.btn-container{
+    gap: 1rem;
+}
+/* black and white */
+.pic-container img{
+    border-radius: 40%;
+    filter: grayscale(100%);
+    width: 400px;
+}
+.pic-container img:hover{
+    filter: grayscale(0%);
+}
+/* about section  */
+#about{
+    position: relative;
+}
+.about-containers{
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    gap: 2rem;
+}
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.about-containers, .about-details-container{
+    display: flex;
+}
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+} 
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border:rgb(53, 53, 53) solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
