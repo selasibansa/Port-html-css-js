@@ -3,88 +3,124 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    #about-containers{
+
+    #about-containers {
         flex-wrap: wrap;
     }
 }
 @media screen and (max-width:1200px) {
-    #desktop-nav{
+    #desktop-nav {
         display: none;
     }
-    #hamburgur-nav{
+
+    #hamburgur-nav {
         display: flex;
     }
-    #experence, .exeperence-details-container{
+
+    #experence, .exeperence-details-container {
         margin-top: 2rem;
     }
-    #profile, .section-container{
+
+    #profile, .section-container {
         display: block;
     }
+
     .arrow{
         display: none;
     }
-    section, .section-container{
+
+    section, .section-container {
         height: fit-content;
     }
+
     section{
         margin: 0 5%;
     }
-    .pic-container{
+
+    .pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
+
     .about-containers{
         margin-top: 0;
     }
 }
 @media screen and (max-width:600px) {
-    #contact, footer{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact, footer {
         height: 40vh;
     }
-    #profile{
+
+    #profile {
         height: 83vh;
         margin-bottom: 0;
     }
-    article{
+    
+    article {
         font-size: 1rem;
     }
-    footer nav{
+
+    footer nav {
         height: fit-content;
         margin-bottom: 2rem;
     }
+
     .about-containers, .contact-info-upper-container, btn-container{
         flex-wrap: wrap;
     }
-    .contact-info-container{
+
+    .contact-info-container {
         margin: 0;
     }
-    .contact-info-container p,.nav-links li a{
+
+    .contact-info-container p,.nav-links li a {
         font-size: 1rem;
     }
-    .exp-sub-title{
+    .exp-sub-title {
         font-size: 1.25rem;
     }
+
     .logo{
         font-size: 1.5rem;
     }
-    .nav-links{
+
+    .nav-links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
-    .pic-container{
+
+    .pic-container {
         width: auto;
-        height: 46vw;
+        
         justify-content: center;
     }
-    .section-text-1{
+
+    .section-text-1 {
         font-size: 1.25rem;
     }
-    .title{
+
+    .title {
         font-size: 2rem;
     }
-    .text-container{
+
+    .text-container {
         text-align: justify;
+    }
+
+    #about{
+        padding: 0;
+    }
+    
+    #profile, .img_container {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
     }
 }
